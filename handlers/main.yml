@@ -1,0 +1,4 @@
+---
+# handlers file for myapache-AOP
+- name: restart apache
+  service: name=httpd state=restarted
